@@ -1,15 +1,8 @@
-*{
-	margin:0;
-	padding:0;
-}
-a{
-	text-decoration: none;
-	color: black;
-}
+
 body{
 	text-align: center;
 }
-#header{
+#nav{
 	height: 100px; 
 	border-color:#cccccc;
 	border-width: 2px 0px;
@@ -18,37 +11,37 @@ body{
 	padding: 0px 100px;
 	overflow: hidden;
 }
-#header img{
+#nav img{
 	float: left;
-    margin: 10px 46px;
+    margin: 10px -40px 10px 45px;
 }
-#header li{
+#nav li{
 	display: inline-block;
     width: 102px;
     font-family: "幼圆";
-    font-size: 25px;
     margin: 3px 50px;
     font-weight: bold;
-    padding: 30px 0;
+    padding: 32px 0px ;
+	font-size: 25px;
 }
-#header li a:hover{
+#nav li a:hover{
 	color: #f90;
 	text-decoration: none;
 	}
-#header li:hover{	
+#nav li:hover{	
 	border-bottom: #f90 3px solid;
 	
 	}
-.box1{
+.main1{
 	height: 542px;
 	background: url(../img/background.jpg);
 	background-size: 1349px 542px;
 }
-.par1 {
+.submain2 {
 	   width:50%;
 	   min-width: 600px;
        float: left;
-       font:bold 17.67px/21.83px "宋体";
+       font:bold 18.67px/23.83px "宋体";
 	   text-align: left;
 	   margin-bottom: 70px;
 	   background-color: white;
@@ -56,16 +49,18 @@ body{
 }	
 .imag1{
 	background: url(../img/icon.png) no-repeat -118px -57px;
-	height: 100px;margin-left: 100px;
+	height: 100px;
+	margin-left: 100px;
 }
 .imag2{
-	background: url(../img/logo2.png) no-repeat 0 0;height: 100px;
+	background: url(../img/logo2.png) no-repeat 0 0;
+	height: 100px;
 	background-position:left;
 }
 
 .pa1{
 	margin-left: 100px;
-	border-right:solid 3px orangered;
+	border-right:solid 3px #f90;
 	text-indent: 2em;
 	padding-right: 27px;
 	
@@ -78,13 +73,15 @@ body{
 .pa2 .date{
 	text-align: right;
 }
-.box2:after{
-	content: ".";display: block;
-	clear: both;height: 0px;
+.main2:after{
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0px;
 	overflow:hidden;
 	visibility: hidden;
 }
-.box3{
+.main3{
 	text-align: left;
 	background-color: #CCCCCC;
 	padding:10px 7% 90px;
@@ -94,71 +91,71 @@ body{
 	background: url(../img/logo3.png) no-repeat 0 0;
 	height: 120px; 
 }
-.first .si5{
+.column1 .extend{
 	clear: both;
 }
-.first a:hover{
+.column1 a:hover{
 	color: #f90;
 }
-.first{
+.column1{
 	margin: 0px 44px 10px;
 }
-li {
+.main3 li {
 	font: 27px/34px "幼圆";
 	margin-left: 45px;
 }
-.tu1{
-	width: 220px;
+.content{
+	width: 219px;
 	background-color: white;
 	margin: 10px 22.5px 27px;
 	float: left;
 }
-.imag4{
+.works-imag{
 	width:220px ;
 	height:auto
 	background-size: cover;
 	
 }
-.tuxia{
+.discription{
 	font-family: tahoma,arial,\5FAE\8F6F\96C5\9ED1;
 }
-.tuxia2{
+.sub-discription{
 	padding:10px;
 	width: 220px;
 }
-.imbx1{ 
+.author-photo{ 
 		float: left;
-		width: 30px;
-		height: 30px;
+		width: 33px;
+		height: 33px;
 		margin-right: 10px;
 }
-.tu1 img{
+.author-photo img{
 	width:100%;
 	min-height: 30px;
 	}
-.si1{
+.title{
 	font-size: 16px;
 	line-height: 18px;
 	padding: 10px 10px 5px;
 	color: #666666;
 }
-.si2{
+.property{
 	padding: 0 10px;
 	font-size: 100%;
 	font-weight: normal;
 	color: #999;
 }
-.si3{
+.author-name{
 	font-size: 12px;
-	line-height: 1.5;
+	line-height: 1.5em;
 	color: #5ac6ea;
 }
-.si4{
+.sub-discription .date{
 	font-size: 12px;
 	color: #666666;
-	line-height: 1.5;
+	line-height: 1.5em;
 }
-.si5{
+.extend{
 	font:bold 27px/34px "幼圆";
 	text-align: right;
 }
