@@ -1,32 +1,29 @@
 
 body{
 	text-align: center;
+	width: 100%；
 }
 #nav{
-	height: 100px; 
-	border-color:#cccccc;
-	border-width: 2px 0px;
-	border-style: solid;
-	margin-top: 4px;
-	padding: 0px 100px;
-	overflow: hidden;
+	height: 96px; 
+	border: 2px #ccc solid ;
+	border-left: 0;
+	border-right: 0;
 }
-#nav img{
+#nav .nav-box{
+	width: 1100px;
+}
+#nav .nav-box a img{
 	float: left;
-    margin: 10px -40px 10px 45px;
+    margin: 10px 0px 0px 60px;
 }
 #nav li{
 	display: inline-block;
-    width: 102px;
-    font-family: "幼圆";
-    margin: 3px 50px;
-    font-weight: bold;
-    padding: 32px 0px ;
-	font-size: 25px;
+    width: 106px;
+	font: bold 25px/92px "幼圆";
+	margin: 0px 47px;      /*只是为了使下划线达到设计稿的长度*/
 }
 #nav li a:hover{
 	color: #f90;
-	text-decoration: none;
 	}
 #nav li:hover{	
 	border-bottom: #f90 3px solid;
@@ -34,41 +31,38 @@ body{
 	}
 .main1{
 	height: 542px;
-	background: url(../img/background.jpg);
-	background-size: 1349px 542px;
+	background: url(../img/background.jpg) no-repeat 0 0 /100% auto;
+	min-width: 1300px;
+}
+.main2{
+	width: 1100px;
+	padding-bottom: 72px;
 }
 .submain2 {
 	   width:50%;
-	   min-width: 600px;
        float: left;
-       font:bold 18.67px/23.83px "宋体";
+       font:bold 17.67px/22.83px "宋体";
 	   text-align: left;
-	   margin-bottom: 70px;
-	   background-color: white;
+	   background-color: #fff;
 	   color: #666;
 }	
 .imag1{
-	background: url(../img/icon.png) no-repeat -118px -57px;
-	height: 100px;
-	margin-left: 100px;
+	background: url(../img/icon.png) no-repeat -78px -23px;
+	height: 130px;
 }
 .imag2{
-	background: url(../img/logo2.png) no-repeat 0 0;
-	height: 100px;
-	background-position:left;
+	background: url(../img/logo2.png) no-repeat -18px -30px;
+	height: 130px;
 }
 
 .pa1{
-	margin-left: 100px;
 	border-right:solid 3px #f90;
 	text-indent: 2em;
-	padding-right: 27px;
-	
+	padding: 0px 22px;
 }
 .pa2{
-	margin-right: 100px;
 	text-indent: 2em;
-	padding-right: 27px;
+	padding: 0px 22px;
 }
 .pa2 .date{
 	text-align: right;
@@ -84,12 +78,17 @@ body{
 .main3{
 	text-align: left;
 	background-color: #CCCCCC;
-	padding:10px 7% 90px;
-	
+	padding:10px 0px 90px;
+}
+.main3-box{
+	width: 1100px;
 }
 .imag3{
 	background: url(../img/logo3.png) no-repeat 0 0;
 	height: 120px; 
+}
+.main3-box ul{
+	padding: 0px 23px;
 }
 .column1 .extend{
 	clear: both;
@@ -97,43 +96,33 @@ body{
 .column1 a:hover{
 	color: #f90;
 }
-.column1{
-	margin: 0px 44px 10px;
-}
-.main3 li {
+.main3-box li {
 	font: 27px/34px "幼圆";
 	margin-left: 45px;
 }
 .content{
 	width: 219px;
-	background-color: white;
-	margin: 10px 22.5px 27px;
+	background-color: #FFFFFF;
+	margin: 10px 22px 27px;
 	float: left;
-}
-.works-imag{
-	width:220px ;
-	height:auto
-	background-size: cover;
-	
 }
 .discription{
 	font-family: tahoma,arial,\5FAE\8F6F\96C5\9ED1;
 }
 .sub-discription{
-	padding:10px;
-	width: 220px;
+	padding:2px 10px 10px;
 }
 .author-photo{ 
 		float: left;
-		width: 33px;
-		height: 33px;
-		margin-right: 10px;
+		width: 30px;
+		height: 30px;
+		margin:6px 10px 0 0;
 }
 .author-photo img{
 	width:100%;
 	min-height: 30px;
 	}
-.title{
+.title a{
 	font-size: 16px;
 	line-height: 18px;
 	padding: 10px 10px 5px;
@@ -141,11 +130,10 @@ body{
 }
 .property{
 	padding: 0 10px;
-	font-size: 100%;
-	font-weight: normal;
+	font-size: 14px;
 	color: #999;
 }
-.author-name{
+.author-name a{
 	font-size: 12px;
 	line-height: 1.5em;
 	color: #5ac6ea;
