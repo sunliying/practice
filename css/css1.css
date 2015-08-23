@@ -1,149 +1,169 @@
-
-body{
-	text-align: center;
-	width: 100%；
-}
-#nav{
+.index .nav,.list .nav,.second .nav{
 	height: 96px; 
 	border: 2px #ccc solid ;
 	border-left: 0;
 	border-right: 0;
-}
-#nav .nav-box{
+	text-align: center;
+	background-color: #FFFFFF;
+	}
+.index .nav .nav-box,.list .nav .nav-box,.second .nav .nav-box{
 	width: 1100px;
+	letter-spacing: -6px;
 }
-#nav .nav-box a img{
-	float: left;
+.index .nav .nav-box img,.second .nav .nav-box img,.list  .nav .nav-box img{
     margin: 10px 0px 0px 60px;
+    float: left;
 }
-#nav li{
+.index .nav a,.second .nav a,.list .nav a{
 	display: inline-block;
     width: 106px;
-	font: bold 25px/92px "幼圆";
-	margin: 0px 47px;      /*只是为了使下划线达到设计稿的长度*/
+	font: bold 25px/92px "youyuan";
+	margin: 0px 47px;      /*鍙槸涓轰簡浣夸笅鍒掔嚎杈惧埌璁捐绋跨殑闀垮害*/
+	letter-spacing: 0px;
 }
-#nav li a:hover{
+.index .nav a:hover,.second .nav a:hover,.list .nav a:hover{
 	color: #f90;
-	}
-#nav li:hover{	
 	border-bottom: #f90 3px solid;
-	
 	}
-.main1{
-	height: 542px;
+.index .main1{
+	height: 504px;
 	background: url(../img/background.jpg) no-repeat 0 0 /100% auto;
-	min-width: 1300px;
+	min-width: 1100px;
 }
-.main2{
+.index .main2{
 	width: 1100px;
-	padding-bottom: 72px;
+	padding:40px 0px 72px;
 }
-.submain2 {
+.index .submain2 {
 	   width:50%;
        float: left;
-       font:bold 17.67px/22.83px "宋体";
+       font:bold 17.67px/22.83px simsun;
 	   text-align: left;
 	   background-color: #fff;
 	   color: #666;
 }	
-.imag1{
-	background: url(../img/icon.png) no-repeat -78px -23px;
+.index .imag1{
+	background: url(../img/icon.png) no-repeat -78px -42px;
 	height: 130px;
 }
-.imag2{
-	background: url(../img/logo2.png) no-repeat -18px -30px;
+.index .imag2{
+	background: url(../img/logo2.png) no-repeat 52px -15px;
 	height: 130px;
 }
 
-.pa1{
+.index .pa1{
 	border-right:solid 3px #f90;
 	text-indent: 2em;
 	padding: 0px 22px;
 }
-.pa2{
+.index .pa2{
 	text-indent: 2em;
 	padding: 0px 22px;
 }
-.pa2 .date{
+.index .pa2 a{
+	color: #666;
+}
+.index .pa2 a:hover{
+	color: #00f;
+}
+.index .pa2 .date{
 	text-align: right;
 }
-.main2:after{
+.index .main2:after{
 	content: ".";
 	display: block;
 	clear: both;
 	height: 0px;
-	overflow:hidden;
 	visibility: hidden;
 }
-.main3{
+.list .main3, .index .main3{
 	text-align: left;
 	background-color: #CCCCCC;
 	padding:10px 0px 90px;
 }
-.main3-box{
+.list .main3-box{
+	width: 1054px;
+}
+.index .main3-box{
 	width: 1100px;
 }
-.imag3{
+.index .imag3{
 	background: url(../img/logo3.png) no-repeat 0 0;
 	height: 120px; 
 }
-.main3-box ul{
+.list .main3-box, .index .main3-box ul{
 	padding: 0px 23px;
 }
-.column1 .extend{
+.index .column1 .extend{
 	clear: both;
 }
-.column1 a:hover{
+.list .main3-box a:hover,.index .column1 a:hover{
 	color: #f90;
 }
-.main3-box li {
-	font: 27px/34px "幼圆";
+.list .main3-box li,.index .main3-box li {
+	font: 27px/34px "YouYuan";
 	margin-left: 45px;
 }
-.content{
+.list .content, .index .content{
 	width: 219px;
 	background-color: #FFFFFF;
 	margin: 10px 22px 27px;
 	float: left;
 }
-.discription{
-	font-family: tahoma,arial,\5FAE\8F6F\96C5\9ED1;
+.list .main3-box:after{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
 }
-.sub-discription{
+.list .content .works-imag, .index .content .works-imag{
+	width: 219px;
+	height: 140px;
+}
+.list .content .works-imag a img, .index .content .works-imag a img{
+	width: 100%;
+	min-height: 140px;
+	}
+.list.discription,  .index .discription{
+	font-family: tahoma,arial,\5FAE\8F6F\96C5\9ED1;
+	padding-top: 3px;
+}
+.list .sub-discription,  .index .sub-discription{
 	padding:2px 10px 10px;
 }
-.author-photo{ 
+.list .author-photo, .index .author-photo{ 
 		float: left;
 		width: 30px;
 		height: 30px;
 		margin:6px 10px 0 0;
 }
-.author-photo img{
+.list .author-photo img, .index .author-photo img{
 	width:100%;
 	min-height: 30px;
 	}
-.title a{
+.list .title a, .index .title a{
 	font-size: 16px;
 	line-height: 18px;
 	padding: 10px 10px 5px;
 	color: #666666;
 }
-.property{
+.list .property, .index .property{
 	padding: 0 10px;
 	font-size: 14px;
 	color: #999;
 }
-.author-name a{
+.list .author-name a, .index .author-name a{
 	font-size: 12px;
 	line-height: 1.5em;
 	color: #5ac6ea;
 }
-.sub-discription .date{
+.list .sub-discription .date, .index .sub-discription .date{
 	font-size: 12px;
 	color: #666666;
 	line-height: 1.5em;
 }
-.extend{
-	font:bold 27px/34px "幼圆";
+.index .extend{
+	font:bold 27px/34px "youyuan";
 	text-align: right;
 }
