@@ -1,0 +1,20 @@
+/*CSSreset*/
+body,div,ul,li,h1,h2,p,blockquote {
+padding: 0;
+margin: auto;
+}
+fieldset,img {
+border: 0;
+}
+a,input{
+	text-decoration: none;
+	color: black;
+	outline: none;
+	border: 0px;
+}
+:focus {
+outline: 0;
+}
+ol,ul{
+	list-style: none;
+}

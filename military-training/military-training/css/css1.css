@@ -1,0 +1,247 @@
+@font-face {
+	font-family:MFLiHei_Noncommercial-Regular;
+	src: url(../font-family/MFLiHei_Noncommercial-Regular.otf)；
+}
+body{
+background-color: #334231;
+}
+.nav{
+	background: url(../img/background-image.gif) no-repeat 0 0/100% auto;
+	height: 370px;
+	min-width: 1000px ;
+}
+.main{
+	width: 900px;
+	margin: 25px auto;
+}
+.line{
+	width: 36px;
+	height: 2670px;
+	float: left;
+	margin-top: 7px;
+}
+.left-line{
+	width: 11px;
+	height:2772px;
+	background-image:linear-gradient(to bottom,#8fc31f,#61c41f,#2dc41f,#1fc43b,#1fc449,#039930,#04b356,#03994e) ;
+	border-radius: 5px;
+	margin: 0px auto;
+}
+.dot{
+	width: 36px;
+	height: 36px;
+	border-radius: 18px;
+	float: left;
+	margin-bottom: 312px;
+}
+.dot1{
+	background: #8FC31F; 
+}
+.dot2{
+	background: #61C41F;
+}
+.dot3{
+	background: #2DC41F ;
+}
+.dot4{
+	background: #1FC43B ;
+}
+.dot5{
+	background: #1FC449 ;
+}
+.dot6{
+	background: #039930 ;
+}
+.dot7{
+	background: #04B356 ;
+}
+.dot8{
+	background: #03994E ;
+}
+.column1{
+	margin: 10px 0px 10px 70px;
+	font: 14px/18px "microsoft yahei";
+	color: #000;
+}
+.h1{
+	font: bold 30.65px/39.41px "MFLiHei_Noncommercial-Regular";
+	color:#fc0302  ;
+	margin-bottom: 12px;
+	white-space: nowrap;
+}
+.h1 img{
+	margin: 9px 0px -10px 0px;
+}
+.left-box{
+	float: left;
+	height:288px ;
+	width: 538px;
+	background: white;
+	position: relative;
+	margin-left: 20px;
+}
+.left-box:before{
+	content: "";
+    position: absolute;
+    right: 538px;
+    width: 0px;
+    height: 0px;
+    border-right: 20px solid ;
+    border-bottom: 28px solid transparent;
+    border-top: 28px solid transparent;
+    border-left: 56px solid transparent;
+}
+.left-box .menu{
+	width: 140px;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+.left-box .menu .first-title{
+	height: 56px;
+	width: 100%;
+	font: bold 31.38px/56px "MFLiHei_Noncommercial-Regular";
+	white-space: nowrap;
+}
+.left-box .menu .first-title a{
+	color: #c90b0b;	
+}
+.left-box .menu .second-title{
+	height:38px;
+	width: 100%;
+	font: bold 25.31px/45px "MFLiHei_Noncommercial-Regular";	
+	white-space: nowrap;
+}
+.left-box .menu .second-title a{
+	color: #f4e10e;
+}
+.left-box .content{
+	width: 326px;
+    display: inline-block;
+    padding: 7px 36px;
+    text-indent: 2em;
+}
+.left-box .content h2{
+	color: #f4e10e;
+	text-align: left;
+	text-indent: 0em;
+	font: bold 30px/45px "microsoft yahei";
+	white-space: nowrap;
+}
+
+.image{
+	height: 98px;
+	width: 140px;
+	display: inline-block;
+	overflow: hidden;
+	margin: 10px 0px;
+}
+.image1{
+	margin-right: 30px;
+}
+.image img{
+	width: 100%;
+	min-height: 98px;
+	position: relative;
+    left: -28px;
+}
+.right-box{
+	float: right;
+	height: 262px;
+	width: 186px;
+	border-radius: 15px;
+	padding: 0px 20px 25px;
+	text-indent: 2em;
+}
+.right-box h2{
+	color: #c90b0b;
+	text-align: center;
+	font: bold 33.27px/55px "MFLiHei_Noncommercial-Regular";
+	text-indent: 0em;
+	white-space: nowrap;
+}
+.column1:after{
+	content: ".";
+	height: 0px;
+	visibility: hidden;
+	display: block;
+	clear: right;
+}
+.left-box .menu1{
+	background: #5e8014;	
+}
+.left-box .menu .first-title1,.right-box1{
+	background: #8FC31F;	
+}
+.left-box1:before{
+	border-right-color: #8fc31f;
+}
+.left-box .menu2{
+	background: #4c9918;	
+}
+.left-box .menu .first-title2,.right-box2{
+	background: #61c41f;	
+}
+.left-box2:before{
+	border-right-color: #61c41f;
+}
+.left-box .menu3{
+	background: #239918;	
+}
+.left-box .menu .first-title3,.right-box3{
+	background: #2dc41f;	
+}
+.left-box3:before{
+	border-right-color: #2dc41f;
+}
+.left-box .menu4{
+	background: #18992e;	
+}
+.left-box .menu .first-title4,.right-box4{
+	background: #1fc43b;	
+}
+.left-box4:before{
+	border-right-color: #1fc43b;
+}
+.left-box .menu5{
+	background: #189939;	
+}
+.left-box .menu .first-title5,.right-box5{
+	background: #1fc449;	
+}
+.left-box5:before{
+	border-right-color: #1fc449;
+}
+.left-box .menu6{
+	background: #026620;	
+}
+.left-box .menu .first-title6,.right-box6{
+	background: #039930;	
+}
+.left-box6:before{
+	border-right-color: #039930;
+}
+.left-box .menu7{
+	background: #038041;	
+}
+.left-box .menu .first-title7,.right-box7{
+	background: #04b35b;	
+}
+.left-box7:before{
+	border-right-color: #04b35b;
+}
+.left-box .menu8{
+	background: #026634;	
+}
+.left-box .menu .first-title8,.right-box8{
+	background: #03994e;	
+}
+.left-box8:before{
+	border-right-color: #03994e;
+}
+.right-box .right-title6,.right-box .right-title7,.right-box .right-title8{
+	font-size: 20px;
+}
+.left-box .menu .first-title8{
+	font-size: 27px;
+}
